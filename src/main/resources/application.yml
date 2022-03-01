@@ -1,9 +1,11 @@
-spring:
-  profiles:
-    active: dev
-
 server:
   port: 8761
+
+spring:
+  application:
+    name: service-registry
+  profiles:
+    active: dev
 
 eureka:
   client:
